@@ -12,6 +12,8 @@
 		82F769BF1C1DB41500273C4D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82F769BD1C1DB41500273C4D /* MainMenu.xib */; };
 		82F769CA1C1DB41600273C4D /* SpeakLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F769C91C1DB41600273C4D /* SpeakLineTests.swift */; };
 		82F769D51C1DB41600273C4D /* SpeakLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F769D41C1DB41600273C4D /* SpeakLineUITests.swift */; };
+		82F769E41C1DB47D00273C4D /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F769E21C1DB47D00273C4D /* MainWindowController.swift */; };
+		82F769E51C1DB47D00273C4D /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82F769E31C1DB47D00273C4D /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		82F769D01C1DB41600273C4D /* SpeakLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F769D41C1DB41600273C4D /* SpeakLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakLineUITests.swift; sourceTree = "<group>"; };
 		82F769D61C1DB41600273C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F769E21C1DB47D00273C4D /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		82F769E31C1DB47D00273C4D /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				82F769BB1C1DB41500273C4D /* Assets.xcassets */,
 				82F769BD1C1DB41500273C4D /* MainMenu.xib */,
 				82F769C01C1DB41500273C4D /* Info.plist */,
+				82F769E21C1DB47D00273C4D /* MainWindowController.swift */,
+				82F769E31C1DB47D00273C4D /* MainWindowController.xib */,
 			);
 			path = SpeakLine;
 			sourceTree = "<group>";
@@ -224,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82F769BC1C1DB41500273C4D /* Assets.xcassets in Resources */,
+				82F769E51C1DB47D00273C4D /* MainWindowController.xib in Resources */,
 				82F769BF1C1DB41500273C4D /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F769E41C1DB47D00273C4D /* MainWindowController.swift in Sources */,
 				82F769BA1C1DB41500273C4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
